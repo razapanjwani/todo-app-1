@@ -1,6 +1,6 @@
 const jsonserver = require('json-server');
 const server = jsonserver.create();
-const router = jsonserver.router('/todos/todos.json');
+const router = jsonserver.router('todos.json');
 const middlewares = jsonserver.defaults();
 const port = process.env.PORT || 3001;
 
