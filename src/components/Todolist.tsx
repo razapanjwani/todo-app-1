@@ -17,9 +17,8 @@ return (
                 </tr>
             </thead>
             <tbody>
-                {
-                tasks.map((task) => (<Task key={task.id} task={task}/>
-                ))
+                {    
+                tasks.map((task) =>(<Task key={task.id} task={task}/>))
                 }
             </tbody>
         </table>
